@@ -1,0 +1,9 @@
+college{
+    background-color: black;
+}
+
+student,technical_faculty,nontechnical{
+    display: block;
+    color: white;
+    font-size: 75px;
+}

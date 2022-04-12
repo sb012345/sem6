@@ -1,0 +1,6 @@
+<!-- Schema here -->
+<xs:schema>
+<xs:element name="college">
+
+</xs:element>
+</xs:schema>

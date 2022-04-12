@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Sample.css"?>
+
+<!DOCTYPE college    SYSTEM "Sample.dtd">
+<!-- <!DOCTYPE note[
+<!ELEMENT college (technical_faculty,non_teaching,student)>
+<!ELEMENT technical_faculty (name,id,dept)>
+<!ELEMENT non_teaching (name,id)>
+<!ELEMENT student (name,id,cgpa)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT cgpa (#PCDATA)>
+<!ELEMENT dept (#PCDATA)>
+]> -->
+
+<college>
+<student>
+<name>Bhavitha</name>
+<id>191317</id>
+<cgpa>9</cgpa>
+</student>
+<technical_faculty>
+<name>Suresh Mishra</name>
+<id>001</id>
+<dept>CSE</dept>
+</technical_faculty>
+<nontechnical>
+<name>Naresh Rao</name>
+<id>5498612</id>
+</nontechnical>
+</college>

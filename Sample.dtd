@@ -1,0 +1,19 @@
+<!ELEMENT college (technical_faculty+,non_teaching+,student+)>
+<!ELEMENT technical_faculty (name,id,dept)>
+<!ELEMENT non_teaching (name,id)>
+<!ELEMENT student (name,id,cgpa)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT cgpa (#PCDATA)>
+<!ELEMENT dept (#PCDATA)>
+
+<!--<!DOCTYPE note[
+<!ELEMENT college (technical_faculty,non_teaching,student)>
+<!ELEMENT technical_faculty (name,id,dept)>
+<!ELEMENT non_teaching (name,id)>
+<!ELEMENT student (name,id,cgpa)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT cgpa (#PCDATA)>
+<!ELEMENT dept (#PCDATA)>
+]>  -->
